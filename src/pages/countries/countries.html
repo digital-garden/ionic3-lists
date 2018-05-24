@@ -17,7 +17,8 @@
 	<ion-list>
 		<ion-item *ngFor="let c of countries">
 			<ion-avatar ion-left>
-				<img-src="{{ c.flag }}">
+        <img src="{{c.flag}}" onerror="this.onerror=null; this.src='https://am.greengeeks.com/includes/img/logo.png'">
+
 			</ion-avatar>
 			<h2>{{ c.name }}</h2>
 			<p>Capital: {{ c.capital }}, Region: {{ c.region }}</p>

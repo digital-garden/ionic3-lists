@@ -9,8 +9,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class HomePage {
 
-  tab1Root: any = "CountriesPage";
-  tab2Root: any = "NotesPage";
+  tab1Root: any = "NotesPage";
+  tab2Root: any = "CountriesPage";
   tab3Root: any = "ContactsPage";
   tab4Root: any = "LadderPage";
 

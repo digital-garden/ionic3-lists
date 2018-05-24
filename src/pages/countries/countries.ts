@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+
 import { DatBProvider } from '../../providers/dat-b/dat-b';
 /**
  * Generated class for the CountriesPage page.
@@ -15,7 +16,6 @@ import { DatBProvider } from '../../providers/dat-b/dat-b';
   templateUrl: 'countries.html',
 })
 export class CountriesPage {
-
 
 		countries: string[];
 		errorMessage: string;
